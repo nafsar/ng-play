@@ -1,0 +1,25 @@
+.cart-item-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+input {
+    text-align: center;
+    width: 60px;
+}   
+
+.cart-item-wrapper > div {
+    flex-grow: 1;
+    color: #436f85; 
+    text-align: center;
+}
+.ch-red:hover {
+    color:red;
+    opacity:0.9;
+}
+.text-50 {
+    color:grey;
+    opacity: 0.5;
+}
+
