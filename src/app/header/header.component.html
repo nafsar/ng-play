@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-xl bg-light navbar-light">
   <a class="navbar-brand" href="#">
-    <img src="assets/images/angular.png" alt="logo" >
+    <img src="assets/images/angular.png" alt="logo" > <span class="sz">{{version}}</span>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
@@ -10,16 +10,17 @@
     <li routerLinkActive="active" class="nav-item active">
       <a routerLink="/shop" class="nav-link text-primary">Tesla Cars</a>
     </li>
-    <li  class="nav-item">
+    <li  class="nav-item" matTooltip="Coming Soon!">
       <a  class="nav-link disabled" href="#">Solar Panels</a>
     </li>
-    <li  class="nav-item">
+   
+    <li  class="nav-item" matTooltip="Coming Soon!">
       <a  class="nav-link disabled" href="#">Solar Roof</a>
     </li>
-    <li  class="nav-item">
+    <li  class="nav-item" matTooltip="Coming Soon!">
       <a  class="nav-link disabled" href="#">Test Drive</a>
     </li>
-    <li  class="nav-item">
+    <li  class="nav-item" matTooltip="Coming Soon!">
       <a  class="nav-link disabled" href="#">Support</a>
     </li>
   </ul>

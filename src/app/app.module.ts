@@ -10,6 +10,8 @@ import { CartComponent } from './cart/cart.component';
 import { ProductComponent } from './product/product.component';
 import { CartitemComponent } from './cart/cartitem/cartitem.component';
 import { ShopComponent } from './shop/shop.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,12 @@ import { ShopComponent } from './shop/shop.component';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatTooltipModule
+  ],
+  exports: [
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
