@@ -1,9 +1,27 @@
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-default">
-      <ul class="nav navbar-nav">
-        <li routerLinkActive="active"><a routerLink="/shop">shop</a></li>
-      </ul>
-    </div>
-  </div>
+<nav class="navbar navbar-expand-xl bg-light navbar-light">
+  <a class="navbar-brand" href="#">
+    <img src="assets/images/angular.png" alt="logo" >
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+  <ul class="navbar-nav">
+    <li routerLinkActive="active" class="nav-item active">
+      <a routerLink="/shop" class="nav-link text-primary">Tesla Cars</a>
+    </li>
+    <li  class="nav-item">
+      <a  class="nav-link disabled" href="#">Solar Panels</a>
+    </li>
+    <li  class="nav-item">
+      <a  class="nav-link disabled" href="#">Solar Roof</a>
+    </li>
+    <li  class="nav-item">
+      <a  class="nav-link disabled" href="#">Test Drive</a>
+    </li>
+    <li  class="nav-item">
+      <a  class="nav-link disabled" href="#">Support</a>
+    </li>
+  </ul>
+</div>
 </nav>
