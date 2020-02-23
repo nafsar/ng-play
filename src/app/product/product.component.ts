@@ -14,8 +14,8 @@ export class ProductComponent implements OnInit {
     new ProductItem(4, 'Model Y', 55000, 'assets/images/modely.png'),
     new ProductItem(5, 'Cyber T', 65000, 'assets/images/modelt.png'),
     new ProductItem(6, 'Sport R', 250000, 'assets/images/modelr.png'),
-    new ProductItem(7, 'Truck T', 75000, 'assets/images/rivian.png'),
-    new ProductItem(8, 'Semi  T', 150000, 'assets/images/semi.png'),
+    new ProductItem(7, 'Truck 1', 295000, 'assets/images/rivian.png'),
+    new ProductItem(8, 'Truck 2', 200000, 'assets/images/semi.png'),
 
   ]
 

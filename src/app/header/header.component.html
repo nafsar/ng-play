@@ -1,15 +1,16 @@
 <nav class="navbar navbar-expand-xl bg-light navbar-light">
   <a class="navbar-brand" href="#">
-    <img src="assets/images/angular.png" alt="logo" > <span class="sz">{{version}}</span>
+    <img src="assets/images/tesla.png" alt="logo" >
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-  <ul class="navbar-nav">
-    <li routerLinkActive="active" class="nav-item active">
-      <a routerLink="/shop" class="nav-link text-primary">Tesla Cars</a>
-    </li>
+  <div class="collapse navbar-collapse container-fluid" id="collapsibleNavbar">
+  <!-- <ul class="navbar-nav"> -->
+    <ul class="nav nav-tabs">
+    <li class="nav-item"> 
+      <a routerLink="/shop" class="nav-link " routerLinkActive="active text-primary btn-bck-color">Tesla Cars</a>
+    </li> 
     <li  class="nav-item" matTooltip="Coming Soon!">
       <a  class="nav-link disabled" href="#">Solar Panels</a>
     </li>
@@ -20,9 +21,13 @@
     <li  class="nav-item" matTooltip="Coming Soon!">
       <a  class="nav-link disabled" href="#">Test Drive</a>
     </li>
-    <li  class="nav-item" matTooltip="Coming Soon!">
-      <a  class="nav-link disabled" href="#">Support</a>
-    </li>
+     <li  class="nav-item" > 
+      <a routerLink="/support" class="nav-link" routerLinkActive="active text-primary btn-bck-color">Support</a>
+    </li> 
+  </ul>
+  <ul class="nav navbar-nav navbar-right">
+    <li> <img src="assets/images/angular.png" alt="logo" > <span class="sz">{{version}}</span></li>
+   
   </ul>
 </div>
 </nav>

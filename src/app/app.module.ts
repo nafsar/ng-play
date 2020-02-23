@@ -11,7 +11,8 @@ import { ProductComponent } from './product/product.component';
 import { CartitemComponent } from './cart/cartitem/cartitem.component';
 import { ShopComponent } from './shop/shop.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatTooltipModule} from '@angular/material/tooltip';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { SupportComponent } from './support/support.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     CartComponent,
     ProductComponent,
     CartitemComponent,
-    ShopComponent
+    ShopComponent,
+    SupportComponent
   ],
   imports: [
     BrowserModule,
