@@ -13,6 +13,7 @@ import { ShopComponent } from './shop/shop.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { SupportComponent } from './support/support.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SupportComponent } from './support/support.component';
     ProductComponent,
     CartitemComponent,
     ShopComponent,
-    SupportComponent
+    SupportComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
